@@ -3,9 +3,9 @@
   <title><![CDATA[leesei's blog]]></title>
   <subtitle><![CDATA[a blog built with Hexo]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2014-12-01T06:27:36.187Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://leesei.github.io/blog/"/>
+  <updated>2014-12-01T06:30:38.523Z</updated>
+  <id>http://leesei.github.io/blog/</id>
   
   <author>
     <name><![CDATA[leesei]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[Category]]></title>
-    <link href="http://yoursite.com/2014/12/01/category/"/>
-    <id>http://yoursite.com/2014/12/01/category/</id>
+    <link href="http://leesei.github.io/blog/2014/12/01/category/"/>
+    <id>http://leesei.github.io/blog/2014/12/01/category/</id>
     <published>2014-12-01T06:23:00.000Z</published>
     <updated>2014-12-01T06:25:37.000Z</updated>
     <content type="html"><![CDATA[]]></content>
@@ -25,16 +25,16 @@
     <![CDATA[]]>
     </summary>
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://leesei.github.io/blog/tags/hexo/"/>
     
-      <category term="Foo" scheme="http://yoursite.com/categories/foo/"/>
+      <category term="Foo" scheme="http://leesei.github.io/blog/categories/foo/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Deep Category]]></title>
-    <link href="http://yoursite.com/2014/12/01/deep-category/"/>
-    <id>http://yoursite.com/2014/12/01/deep-category/</id>
+    <link href="http://leesei.github.io/blog/2014/12/01/deep-category/"/>
+    <id>http://leesei.github.io/blog/2014/12/01/deep-category/</id>
     <published>2014-12-01T06:22:54.000Z</published>
     <updated>2014-12-01T06:25:42.000Z</updated>
     <content type="html"><![CDATA[]]></content>
@@ -42,20 +42,20 @@
     <![CDATA[]]>
     </summary>
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://leesei.github.io/blog/tags/hexo/"/>
     
-      <category term="Foo" scheme="http://yoursite.com/categories/foo/"/>
+      <category term="Foo" scheme="http://leesei.github.io/blog/categories/foo/"/>
     
-      <category term="Bar" scheme="http://yoursite.com/categories/foo/bar/"/>
+      <category term="Bar" scheme="http://leesei.github.io/blog/categories/foo/bar/"/>
     
-      <category term="Baz" scheme="http://yoursite.com/categories/foo/bar/baz/"/>
+      <category term="Baz" scheme="http://leesei.github.io/blog/categories/foo/bar/baz/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Pages]]></title>
-    <link href="http://yoursite.com/2014/12/01/pages/"/>
-    <id>http://yoursite.com/2014/12/01/pages/</id>
+    <link href="http://leesei.github.io/blog/2014/12/01/pages/"/>
+    <id>http://leesei.github.io/blog/2014/12/01/pages/</id>
     <published>2014-12-01T05:37:54.000Z</published>
     <updated>2014-12-01T05:59:16.000Z</updated>
     <content type="html"><![CDATA[<p>You can use this to create page:</p>
@@ -72,16 +72,16 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></t]]>
     </summary>
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://leesei.github.io/blog/tags/hexo/"/>
     
-      <category term="tutorial" scheme="http://yoursite.com/tags/tutorial/"/>
+      <category term="tutorial" scheme="http://leesei.github.io/blog/tags/tutorial/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Tag Plugins]]></title>
-    <link href="http://yoursite.com/2014/12/01/tag-plugins/"/>
-    <id>http://yoursite.com/2014/12/01/tag-plugins/</id>
+    <link href="http://leesei.github.io/blog/2014/12/01/tag-plugins/"/>
+    <id>http://leesei.github.io/blog/2014/12/01/tag-plugins/</id>
     <published>2014-12-01T05:21:57.000Z</published>
     <updated>2014-12-01T05:58:14.000Z</updated>
     <content type="html"><![CDATA[<p>Tag plugins are different from tags in posts. They’re ported from Octopress and can help you insert specific contents in posts quickly.</p>
@@ -229,16 +229,16 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://leesei.github.io/blog/tags/hexo/"/>
     
-      <category term="tutorial" scheme="http://yoursite.com/tags/tutorial/"/>
+      <category term="tutorial" scheme="http://leesei.github.io/blog/tags/tutorial/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Code Sample]]></title>
-    <link href="http://yoursite.com/2014/12/01/code-sample/"/>
-    <id>http://yoursite.com/2014/12/01/code-sample/</id>
+    <link href="http://leesei.github.io/blog/2014/12/01/code-sample/"/>
+    <id>http://leesei.github.io/blog/2014/12/01/code-sample/</id>
     <published>2014-12-01T04:28:52.000Z</published>
     <updated>2014-12-01T06:13:27.000Z</updated>
     <content type="html"><![CDATA[<p>Demos various syntax highlighting.</p>
@@ -268,16 +268,16 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://leesei.github.io/blog/tags/hexo/"/>
     
-      <category term="tutorial" scheme="http://yoursite.com/tags/tutorial/"/>
+      <category term="tutorial" scheme="http://leesei.github.io/blog/tags/tutorial/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2014/12/01/hello-world/"/>
-    <id>http://yoursite.com/2014/12/01/hello-world/</id>
+    <link href="http://leesei.github.io/blog/2014/12/01/hello-world/"/>
+    <id>http://leesei.github.io/blog/2014/12/01/hello-world/</id>
     <published>2014-11-30T16:25:31.000Z</published>
     <updated>2014-12-01T06:21:31.000Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
@@ -312,9 +312,9 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://leesei.github.io/blog/tags/hexo/"/>
     
-      <category term="tutorial" scheme="http://yoursite.com/tags/tutorial/"/>
+      <category term="tutorial" scheme="http://leesei.github.io/blog/tags/tutorial/"/>
     
   </entry>
   
