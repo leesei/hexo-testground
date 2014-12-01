@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[leesei's blog]]></title>
+  <subtitle><![CDATA[a blog built with Hexo]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2014-12-01T06:27:36.187Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name><![CDATA[leesei]]></name>
+    <email><![CDATA[leesei@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Category]]></title>
+    <link href="http://yoursite.com/2014/12/01/category/"/>
+    <id>http://yoursite.com/2014/12/01/category/</id>
+    <published>2014-12-01T06:23:00.000Z</published>
+    <updated>2014-12-01T06:25:37.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    <summary type="html">
+    <![CDATA[]]>
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="Foo" scheme="http://yoursite.com/categories/foo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Deep Category]]></title>
+    <link href="http://yoursite.com/2014/12/01/deep-category/"/>
+    <id>http://yoursite.com/2014/12/01/deep-category/</id>
+    <published>2014-12-01T06:22:54.000Z</published>
+    <updated>2014-12-01T06:25:42.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    <summary type="html">
+    <![CDATA[]]>
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="Foo" scheme="http://yoursite.com/categories/foo/"/>
+    
+      <category term="Bar" scheme="http://yoursite.com/categories/foo/bar/"/>
+    
+      <category term="Baz" scheme="http://yoursite.com/categories/foo/bar/baz/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Pages]]></title>
+    <link href="http://yoursite.com/2014/12/01/pages/"/>
+    <id>http://yoursite.com/2014/12/01/pages/</id>
+    <published>2014-12-01T05:37:54.000Z</published>
+    <updated>2014-12-01T05:59:16.000Z</updated>
+    <content type="html"><![CDATA[<p>You can use this to create page:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new page &lt;title&gt;</div></pre></td></tr></table></figure>
+
+<p>Example: <a href="/about">/about</a></p>
+<p><strong>Or</strong> create a folder and file manually:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mkdir pages; <span class="built_in">cd</span> pages</div><div class="line">touch about.md</div></pre></td></tr></table></figure>
+
+<p>Example: <a href="/pages/about.html">/pages/about.html</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>You can use this to create page:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></t]]>
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="tutorial" scheme="http://yoursite.com/tags/tutorial/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Tag Plugins]]></title>
+    <link href="http://yoursite.com/2014/12/01/tag-plugins/"/>
+    <id>http://yoursite.com/2014/12/01/tag-plugins/</id>
+    <published>2014-12-01T05:21:57.000Z</published>
+    <updated>2014-12-01T05:58:14.000Z</updated>
+    <content type="html"><![CDATA[<p>Tag plugins are different from tags in posts. They’re ported from Octopress and can help you insert specific contents in posts quickly.</p>
+<a id="more"></a>
+
+<h2 id="Block_Quote">Block Quote</h2>
+<p>Inserts quotes with author, source and title in posts.</p>
+<p><strong>Alias:</strong> quote</p>
+<figure class="highlight"><pre>{% blockquote [author[, source]] [link] [source_link_title] %}<br>content<br>{% endblockquote %}<br></pre></figure>
+
+
+<h3 id="Example">Example</h3>
+<p><strong>No arguments given. Only output plain blockquote</strong></p>
+<figure class="highlight"><pre>{% blockquote %}<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.<br>{% endblockquote %}<br></pre></figure>
+
+
+<blockquote>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.</p>
+</blockquote>
+
+
+<p><strong>Quote from a book</strong></p>
+<figure class="highlight"><pre>{% blockquote David Levithan, Wide Awake %}<br>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.<br>{% endblockquote %}<br></pre></figure>
+
+
+<blockquote>
+
+<p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+
+
+<p><strong>Quote from Twitter</strong></p>
+<figure class="highlight"><pre>{% blockquote @DevDocs <a href="https://twitter.com/devdocs/status/356095192085962752" target="_blank" rel="external">https://twitter.com/devdocs/status/356095192085962752</a> %}<br>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io" target="_blank" rel="external">http://devdocs.io</a><br>{% endblockquote %}<br></pre></figure>
+
+
+<blockquote>
+
+<p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io" target="_blank" rel="external">http://devdocs.io</a></p>
+<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752" target="_blank" rel="external">twitter.com/devdocs/status/&hellip;</a></cite></footer></blockquote>
+
+
+<p><strong>Quote from an article on the web</strong></p>
+<figure class="highlight"><pre>{% blockquote Seth Godin <a href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html" target="_blank" rel="external">http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html</a> Welcome to Island Marketing %}<br>Every interaction is both precious and an opportunity to delight.<br>{% endblockquote %}<br></pre></figure>
+
+
+<blockquote>
+
+<p>Every interaction is both precious and an opportunity to delight.</p>
+<footer><strong>Seth Godin</strong><cite><a href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html" target="_blank" rel="external">Welcome to Island Marketing</a></cite></footer></blockquote>
+
+
+<h2 id="Code_Block">Code Block</h2>
+<p>Inserts code snippets in posts.</p>
+<p><strong>Alias:</strong> code</p>
+<figure class="highlight"><pre>{% codeblock [title] [lang:language] [url] [link text] %}<br>code snippet<br>{% endcodeblock %}<br></pre></figure>
+
+
+<h3 id="Example-1">Example</h3>
+<p><strong>A normal code block</strong></p>
+<figure class="highlight"><pre>{% codeblock %}<br>alert(‘Hello World!’);<br>{% endcodeblock %}<br></pre></figure>
+
+
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alert(<span class="string">'Hello World!'</span>);</div></pre></td></tr></table></figure>
+
+<p><strong>Specify language</strong></p>
+<figure class="highlight"><pre>{% codeblock lang:objc %}<br>[rectangle setX: 10 y: 10 width: 20 height: 20];<br>{% endcodeblock %}<br></pre></figure>
+
+
+<figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</div></pre></td></tr></table></figure>
+
+<p><strong>Add caption to code block</strong></p>
+<figure class="highlight"><pre>{% codeblock Array.map %}<br>array.map(callback[, thisArg])<br>{% endcodeblock %}<br></pre></figure>
+
+
+<figure class="highlight"><figcaption><span>Array.map</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">array</span>.<span class="keyword">map</span>(callback[, thisArg])</div></pre></td></tr></table></figure>
+
+<p><strong>Add caption with an optional URL</strong></p>
+<figure class="highlight"><pre>{% codeblock <em>.compact <a href="http://underscorejs.org/#compact" target="_blank" rel="external">http://underscorejs.org/#compact</a> Underscore.js %}
+</em>.compact([0, 1, false, 2, ‘’, 3]);<br>=&gt; [1, 2, 3]<br>{% endcodeblock %}<br></pre></figure>
+
+
+<figure class="highlight"><figcaption><span>_.compact</span><a href="http://underscorejs.org/#compact" target="_blank" rel="external">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="number">_</span>.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="keyword">false</span>, <span class="number">2</span>, <span class="string">''</span>, <span class="number">3</span>]);</div><div class="line"><span class="output"><span class="status">=&gt;</span> [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span></div></pre></td></tr></table></figure>
+
+<h2 id="Backtick_Code_Block">Backtick Code Block</h2>
+<p>This plugin is same as code block, but in backtick style.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">``` <span class="attr_selector">[language]</span> <span class="attr_selector">[title]</span> <span class="attr_selector">[url]</span> <span class="attr_selector">[link text]</span></div><div class="line"><span class="tag">code</span> <span class="tag">snippet</span></div><div class="line">```</div></pre></td></tr></table></figure>
+
+<h2 id="Pull_Quote">Pull Quote</h2>
+<p>This plugin helps you insert a pull quote in posts.</p>
+<figure class="highlight"><pre>{% pullquote [class] %}<br>content<br>{% endpullquote %}<br></pre></figure>
+
+
+<h2 id="jsFiddle">jsFiddle</h2>
+<p>Embeds jsFiddle snippets in posts.</p>
+<figure class="highlight"><pre>{% jsfiddle shorttag [tabs] [skin] [width] [height] %}<br></pre></figure>
+
+
+<h2 id="Gist">Gist</h2>
+<p>Embeds Gist snippets in posts.</p>
+<figure class="highlight"><pre>{% gist gist_id [filename] %}<br></pre></figure>
+
+
+<h2 id="iframe">iframe</h2>
+<p>Embeds an iframe in posts.</p>
+<figure class="highlight"><pre>{% iframe url [width] [height] %}<br></pre></figure>
+
+
+<h2 id="Image">Image</h2>
+<p>Inserts an image in posts with specified size.</p>
+<figure class="highlight"><pre>{% img [class names] /path/to/image [width] [height] [title text [alt text]] %}<br></pre></figure>
+
+
+<h2 id="Link">Link</h2>
+<p>Inserts a link with <code>target=&quot;_blank&quot;</code> attribute.</p>
+<figure class="highlight"><pre>{% link text url [external] [title] %}<br></pre></figure>
+
+<a href="https://www.google.com" target="_blank" rel="external">"Visit Google"</a>
+
+<h2 id="Include_Code">Include Code</h2>
+<p>Inserts code snippets in <code>source</code> folder.</p>
+<figure class="highlight"><pre>{% include_code [title] [lang:language] path/to/file %}<br></pre></figure>
+
+
+<h2 id="Youtube">Youtube</h2>
+<p>Inserts a Youtube video in posts.</p>
+<figure class="highlight"><pre>{% youtube video_id %}</pre></figure>
+
+<pre><div class="video-container"><iframe src="//www.youtube.com/embed/G5MzkDJQkoQ" frameborder="0" allowfullscreen></iframe></div></pre>
+
+<h2 id="Vimeo">Vimeo</h2>
+<p>Inserts a Vimeo video in posts.</p>
+<figure class="highlight"><pre>{% vimeo video_id %}<br></pre></figure>
+
+<pre><div class="video-container"><iframe src="//player.vimeo.com/video/58817138" frameborder="0" allowfullscreen></iframe></div></pre>
+
+<h2 id="Raw">Raw</h2>
+<p>If there’re some contents can’t be processed in posts, you can wrapped it with <code>rawblock</code> tag.</p>
+<figure class="highlight"><pre>{% rawblock %}<br>content<br>{% endrawblock /%}<br></pre></figure>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Tag plugins are different from tags in posts. They’re ported from Octopress and can help you insert specific contents in posts quickly.</p>
+]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="tutorial" scheme="http://yoursite.com/tags/tutorial/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Code Sample]]></title>
+    <link href="http://yoursite.com/2014/12/01/code-sample/"/>
+    <id>http://yoursite.com/2014/12/01/code-sample/</id>
+    <published>2014-12-01T04:28:52.000Z</published>
+    <updated>2014-12-01T06:13:27.000Z</updated>
+    <content type="html"><![CDATA[<p>Demos various syntax highlighting.</p>
+<a id="more"></a>
+
+<h2 id="C++">C++</h2>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="preprocessor">#<span class="keyword">include</span> &lt;iostream&gt;</span></div><div class="line"> </div><div class="line"><span class="keyword">int</span> main()</div><div class="line">{</div><div class="line">     std::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello world!\n"</span>;</div><div class="line">     <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">}</div></pre></td></tr></table></figure>
+
+<h2 id="Java">Java</h2>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> java;</div><div class="line"></div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java</span> </span>{</div><div class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span>(String[] argv) {</div><div class="line">    String string = <span class="string">"Hello"</span>;</div><div class="line">    System.out.println(string + <span class="string">" Java"</span>);</div><div class="line">  }</div><div class="line">}</div></pre></td></tr></table></figure>
+
+<h2 id="JavaScript">JavaScript</h2>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">foo</span><span class="params">()</span> </span>{</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'Hello Javascript!'</span>);</div><div class="line">}</div></pre></td></tr></table></figure>
+
+<h2 id="Go">Go</h2>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"> </div><div class="line"><span class="keyword">func</span> main() {</div><div class="line">    fmt.Println(<span class="string">"Go Go, World!"</span>)</div><div class="line">}</div></pre></td></tr></table></figure>
+
+<h2 id="CSS">CSS</h2>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="class">.article-entry</span> <span class="class">.gist</span> <span class="rules">{</span></div><div class="line">  <span class="rule"><span class="attribute">margin</span>:<span class="value"> <span class="number">0</span> -<span class="number">20px</span></span></span>;</div><div class="line">  <span class="rule"><span class="attribute">border-style</span>:<span class="value"> solid</span></span>;</div><div class="line">  <span class="rule"><span class="attribute">border-color</span>:<span class="value"> <span class="hexcolor">#ddd</span></span></span>;</div><div class="line">  <span class="rule"><span class="attribute">border-width</span>:<span class="value"> <span class="number">1px</span> <span class="number">0</span></span></span>;</div><div class="line">  <span class="rule"><span class="attribute">background</span>:<span class="value"> <span class="hexcolor">#2d2d2d</span></span></span>;</div><div class="line">  <span class="rule"><span class="attribute">padding</span>:<span class="value"> <span class="number">15px</span> <span class="number">20px</span> <span class="number">15px</span> <span class="number">0</span></span></span>;</div><div class="line"><span class="rule">}</span></div></pre></td></tr></table></figure>
+
+<h2 id="Gist">Gist</h2>
+<script src="https://gist.github.com/7071963.js"></script>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Demos various syntax highlighting.</p>
+]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="tutorial" scheme="http://yoursite.com/tags/tutorial/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://yoursite.com/2014/12/01/hello-world/"/>
+    <id>http://yoursite.com/2014/12/01/hello-world/</id>
+    <published>2014-11-30T16:25:31.000Z</published>
+    <updated>2014-12-01T06:21:31.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<a id="more"></a>
+
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+
+<p>Clean redeploy:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ git rm -rf *</div><div class="line">$ git ci -m <span class="string">"Clean all file"</span></div><div class="line">$ hexo clean</div><div class="line">$ hexo d -g</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h3 id="Customization">Customization</h3>
+<p><a href="https://github.com/hexojs/hexo/wiki/Plugins" target="_blank" rel="external">Plugins · hexojs/hexo Wiki</a><br><a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">Themes · hexojs/hexo Wiki</a><br><a href="https://daxiawj.github.io/2014/03-25-Hexo%E5%BB%BA%E7%AB%99%E5%B9%B6%E8%87%AA%E5%AE%9A%E4%B9%89%E6%AD%A5%E9%AA%A4.html" target="_blank" rel="external">Hexo建站并自定义步骤 | daxiawj’s Blog</a><br><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">hexo你的博客 | 不如</a><br><a href="http://zespia.tw/blog/2014/07/28/use-google-analytics-api-on-server/" target="_blank" rel="external">在伺服器上使用 Google Analytics API | Zespia</a><br><a href="http://deffi.info/2014/10/03/Hexo-%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9%E4%B8%BA%E5%8D%9A%E5%AE%A2%E5%AE%9E%E7%8E%B0%E6%9B%B4%E5%A4%9A%E5%8A%9F%E8%83%BD/" target="_blank" rel="external">Hexo 主题修改:为博客实现更多功能 | Deffi</a><br><a href="http://xuanwo.org/2014/08/14/hexo-usual-problem/" target="_blank" rel="external">Hexo常见问题解决方案 | Xuanwo’s Blog</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="tutorial" scheme="http://yoursite.com/tags/tutorial/"/>
+    
+  </entry>
+  
+</feed>
