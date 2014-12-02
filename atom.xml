@@ -4,7 +4,7 @@
   <subtitle><![CDATA[a blog built with Hexo]]></subtitle>
   <link href="/hexo-testground//atom.xml" rel="self"/>
   <link href="http://leesei.github.io/hexo-testground/"/>
-  <updated>2014-12-02T05:59:28.108Z</updated>
+  <updated>2014-12-02T06:55:00.515Z</updated>
   <id>http://leesei.github.io/hexo-testground/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://leesei.github.io/hexo-testground/2014/12/02/deploying-freemind/"/>
     <id>http://leesei.github.io/hexo-testground/2014/12/02/deploying-freemind/</id>
     <published>2014-12-02T04:20:27.000Z</published>
-    <updated>2014-12-02T05:54:00.000Z</updated>
-    <content type="html"><![CDATA[<p><a href="http://hahack.tk/hexo-theme-freemind/" target="_blank" rel="external">Freemind</a> by wzpan.<br>Freemind’s <a href="https://github.com/wzpan/hexo-theme-freemind/tree/source" target="_blank" rel="external">source branch</a>.</p>
+    <updated>2014-12-02T06:01:39.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://hahack.tk/hexo-theme-freemind/" target="_blank" rel="external">Freemind</a> by wzpan. Freemind’s <a href="https://github.com/wzpan/hexo-theme-freemind/tree/source" target="_blank" rel="external">source branch</a>.</p>
 <a id="more"></a>
 
 <h2 id="Install">Install</h2>
@@ -34,7 +34,7 @@
 
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><a href="http://hahack.tk/hexo-theme-freemind/" target="_blank" rel="external">Freemind</a> by wzpan.<br>Freemind’s <a href="https://github.com/wzpan/hexo-theme-freemind/tree/source" target="_blank" rel="external">source branch</a>.</p>
+    <![CDATA[<p><a href="http://hahack.tk/hexo-theme-freemind/" target="_blank" rel="external">Freemind</a> by wzpan. Freemind’s <a href="https://github.com/wzpan/hexo-theme-freemind/tree/source" target="_blank" rel="external">source branch</a>.</p>
 ]]>
     
     </summary>
