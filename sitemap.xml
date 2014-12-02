@@ -2,23 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://leesei.github.io/hexo-testground/2014/12/01/pages/</loc>
-    <lastmod>2014-12-02T03:33:59.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/hexo-testground/pages/about.html</loc>
-    <lastmod>2014-12-02T03:24:50.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/hexo-testground/about/index.html</loc>
-    <lastmod>2014-12-02T03:24:48.000Z</lastmod>
+    <loc>http://leesei.github.io/hexo-testground/2014/12/02/deploying-freemind/</loc>
+    <lastmod>2014-12-02T05:54:00.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://leesei.github.io/hexo-testground/2014/12/01/tag-plugins/</loc>
-    <lastmod>2014-12-01T07:56:05.000Z</lastmod>
+    <lastmod>2014-12-02T05:51:08.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hexo-testground/2014/12/01/pages/</loc>
+    <lastmod>2014-12-02T05:43:25.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hexo-testground/tags/index.html</loc>
+    <lastmod>2014-12-02T05:38:12.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hexo-testground/categories/index.html</loc>
+    <lastmod>2014-12-02T05:38:05.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hexo-testground/about/index.html</loc>
+    <lastmod>2014-12-02T05:38:02.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hexo-testground/2014/12/01/code-sample/</loc>
+    <lastmod>2014-12-02T04:31:59.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hexo-testground/test/index.html</loc>
+    <lastmod>2014-12-02T04:25:59.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://leesei.github.io/hexo-testground/pages/test.html</loc>
+    <lastmod>2014-12-02T04:25:50.000Z</lastmod>
   </url>
   
   <url>
@@ -34,11 +59,6 @@
   <url>
     <loc>http://leesei.github.io/hexo-testground/2014/12/01/hello-world/</loc>
     <lastmod>2014-12-01T06:21:31.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/hexo-testground/2014/12/01/code-sample/</loc>
-    <lastmod>2014-12-01T06:13:27.000Z</lastmod>
   </url>
   
 </urlset>
