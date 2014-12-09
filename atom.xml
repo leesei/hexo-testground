@@ -4,7 +4,7 @@
   <subtitle><![CDATA[a blog built with Hexo]]></subtitle>
   <link href="/hexo-testground//atom.xml" rel="self"/>
   <link href="http://leesei.github.io/hexo-testground/"/>
-  <updated>2014-12-09T08:12:01.391Z</updated>
+  <updated>2014-12-09T17:42:52.901Z</updated>
   <id>http://leesei.github.io/hexo-testground/</id>
   
   <author>
@@ -90,15 +90,15 @@
     <link href="http://leesei.github.io/hexo-testground/2014/12/01/pages/"/>
     <id>http://leesei.github.io/hexo-testground/2014/12/01/pages/</id>
     <published>2014-12-01T05:37:54.000Z</published>
-    <updated>2014-12-02T05:43:25.000Z</updated>
+    <updated>2014-12-09T17:36:47.000Z</updated>
     <content type="html"><![CDATA[<p>You can use this to create page:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new page test</div></pre></td></tr></table></figure>
 
-<p>Example: <a href="/test">/test</a></p>
+<p>Example: <a href="test">test</a></p>
 <p><strong>Or</strong> create a folder and file manually:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mkdir pages; <span class="built_in">cd</span> pages</div><div class="line">touch test.md</div></pre></td></tr></table></figure>
 
-<p>Example: <a href="/pages/test.html">/pages/test.html</a></p>
+<p>Example: <a href="pages/test.html">pages/test.html</a></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>You can use this to create page:</p>

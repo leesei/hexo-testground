@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://leesei.github.io/hexo-testground/2014/12/01/pages/</loc>
+    <lastmod>2014-12-09T17:36:47.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://leesei.github.io/hexo-testground/2014/12/02/deploying-freemind/</loc>
     <lastmod>2014-12-09T07:56:58.000Z</lastmod>
   </url>
@@ -19,11 +24,6 @@
   <url>
     <loc>http://leesei.github.io/hexo-testground/about/index.html</loc>
     <lastmod>2014-12-04T10:41:05.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://leesei.github.io/hexo-testground/2014/12/01/pages/</loc>
-    <lastmod>2014-12-02T05:43:25.000Z</lastmod>
   </url>
   
   <url>
