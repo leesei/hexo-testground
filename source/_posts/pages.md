@@ -10,7 +10,7 @@ You can use this to create page:
 hexo new page test
 ```
 
-Example: [/test](/test)
+Example: [test](test)
 
 **Or** create a folder and file manually:
 ```bash
@@ -18,4 +18,4 @@ mkdir pages; cd pages
 touch test.md
 ```
 
-Example: [/pages/test.html](/pages/test.html)
+Example: [pages/test.html](pages/test.html)
