@@ -4,7 +4,7 @@
   <subtitle><![CDATA[a blog built with Hexo]]></subtitle>
   <link href="/hexo-testground//atom.xml" rel="self"/>
   <link href="http://leesei.github.io/hexo-testground/"/>
-  <updated>2014-12-02T06:55:00.515Z</updated>
+  <updated>2014-12-09T04:05:37.138Z</updated>
   <id>http://leesei.github.io/hexo-testground/</id>
   
   <author>
@@ -19,12 +19,12 @@
     <link href="http://leesei.github.io/hexo-testground/2014/12/02/deploying-freemind/"/>
     <id>http://leesei.github.io/hexo-testground/2014/12/02/deploying-freemind/</id>
     <published>2014-12-02T04:20:27.000Z</published>
-    <updated>2014-12-02T06:01:39.000Z</updated>
+    <updated>2014-12-04T10:22:11.000Z</updated>
     <content type="html"><![CDATA[<p><a href="http://hahack.tk/hexo-theme-freemind/" target="_blank" rel="external">Freemind</a> by wzpan. Freemind’s <a href="https://github.com/wzpan/hexo-theme-freemind/tree/source" target="_blank" rel="external">source branch</a>.</p>
 <a id="more"></a>
 
 <h2 id="Install">Install</h2>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/wzpan/hexo-theme-freemind.git themes/freemind</div><div class="line">npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/wzpan/hexo-theme-freemind.git themes/freemind</div><div class="line">npm install hexo-tag-bootstrap --save</div><div class="line"></div><div class="line"><span class="comment"># or use submodule on your current repo</span></div><div class="line">git submodule add https://github.com/wzpan/hexo-theme-freemind.git themes/freemind</div></pre></td></tr></table></figure>
 
 <p>Change <code>theme</code> in <code>_config.yml</code> as <code>freemind</code>.</p>
 <h2 id="Modify_Freemind_config">Modify Freemind config</h2>
@@ -116,8 +116,8 @@
     <link href="http://leesei.github.io/hexo-testground/2014/12/01/tag-plugins/"/>
     <id>http://leesei.github.io/hexo-testground/2014/12/01/tag-plugins/</id>
     <published>2014-12-01T05:21:57.000Z</published>
-    <updated>2014-12-02T05:51:08.000Z</updated>
-    <content type="html"><![CDATA[<p>Taken from Hexo’s <a href="https://github.com/hexojs/site/blob/master/source/docs/tag-plugins.md" target="_blank" rel="external">doc page</a>.</p>
+    <updated>2014-12-08T06:50:39.000Z</updated>
+    <content type="html"><![CDATA[<p>Taken from Hexo’s <a href="https://github.com/hexojs/site/blob/master/source/docs/tag-plugins.md" target="_blank" rel="external">doc page</a>. Also see <a href="http://hahack.tk/hexo-theme-freemind/2014/03/16/tag-plugins/" target="_blank" rel="external">tag-bootstrap</a></p>
 <p>Tag plugins are different from tags in posts. They’re ported from Octopress and can help you insert specific contents in posts quickly.</p>
 <a id="more"></a>
 
@@ -258,7 +258,7 @@
 
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Taken from Hexo’s <a href="https://github.com/hexojs/site/blob/master/source/docs/tag-plugins.md" target="_blank" rel="external">doc page</a>.</p>
+    <![CDATA[<p>Taken from Hexo’s <a href="https://github.com/hexojs/site/blob/master/source/docs/tag-plugins.md" target="_blank" rel="external">doc page</a>. Also see <a href="http://hahack.tk/hexo-theme-freemind/2014/03/16/tag-plugins/" target="_blank" rel="external">tag-bootstrap</a></p>
 <p>Tag plugins are different from tags in posts. They’re ported from Octopress and can help you insert specific contents in posts quickly.</p>
 ]]>
     
@@ -339,7 +339,9 @@
 
 <p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 <h3 id="Customization">Customization</h3>
-<p><a href="https://github.com/hexojs/hexo/wiki/Plugins" target="_blank" rel="external">Plugins · hexojs/hexo Wiki</a><br><a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">Themes · hexojs/hexo Wiki</a><br><a href="https://daxiawj.github.io/2014/03-25-Hexo%E5%BB%BA%E7%AB%99%E5%B9%B6%E8%87%AA%E5%AE%9A%E4%B9%89%E6%AD%A5%E9%AA%A4.html" target="_blank" rel="external">Hexo建站并自定义步骤 | daxiawj’s Blog</a><br><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">hexo你的博客 | 不如</a><br><a href="http://howiefh.github.io/2014/02/07/hexo-note/" target="_blank" rel="external">hexo后记 | 净土</a><br><a href="http://zespia.tw/blog/2014/07/28/use-google-analytics-api-on-server/" target="_blank" rel="external">在伺服器上使用 Google Analytics API | Zespia</a><br><a href="http://deffi.info/2014/10/03/Hexo-%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9%E4%B8%BA%E5%8D%9A%E5%AE%A2%E5%AE%9E%E7%8E%B0%E6%9B%B4%E5%A4%9A%E5%8A%9F%E8%83%BD/" target="_blank" rel="external">Hexo 主题修改:为博客实现更多功能 | Deffi</a><br><a href="http://xuanwo.org/2014/08/14/hexo-usual-problem/" target="_blank" rel="external">Hexo常见问题解决方案 | Xuanwo’s Blog</a><br><a href="http://wuchong.me/jacman/" target="_blank" rel="external">Jacman Theme</a><br><a href="http://hahack.tk/hexo-theme-freemind/" target="_blank" rel="external">Freemind</a><br><a href="http://hahack.tk/hexo-theme-freemind/2014/03/16/tag-plugins/" target="_blank" rel="external">Tag Bootstrap | Freemind</a></p>
+<p><a href="https://github.com/hexojs/hexo/wiki/Plugins" target="_blank" rel="external">Plugins · hexojs/hexo Wiki</a><br><a href="https://daxiawj.github.io/2014/03-25-Hexo%E5%BB%BA%E7%AB%99%E5%B9%B6%E8%87%AA%E5%AE%9A%E4%B9%89%E6%AD%A5%E9%AA%A4.html" target="_blank" rel="external">Hexo建站并自定义步骤 | daxiawj’s Blog</a><br><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">hexo你的博客 | 不如</a><br><a href="http://howiefh.github.io/2014/02/07/hexo-note/" target="_blank" rel="external">hexo后记 | 净土</a><br><a href="http://zespia.tw/blog/2014/07/28/use-google-analytics-api-on-server/" target="_blank" rel="external">在伺服器上使用 Google Analytics API | Zespia</a><br><a href="http://deffi.info/2014/10/03/Hexo-%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9%E4%B8%BA%E5%8D%9A%E5%AE%A2%E5%AE%9E%E7%8E%B0%E6%9B%B4%E5%A4%9A%E5%8A%9F%E8%83%BD/" target="_blank" rel="external">Hexo 主题修改:为博客实现更多功能 | Deffi</a><br><a href="http://xuanwo.org/2014/08/14/hexo-usual-problem/" target="_blank" rel="external">Hexo常见问题解决方案 | Xuanwo’s Blog</a><br><a href="http://kywk.github.io/moco/tags/hexo-plugin/" target="_blank" rel="external">Tag: hexo-plugin | moco, develop notes by MooCow</a></p>
+<h3 id="Themes">Themes</h3>
+<p><a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">Themes · hexojs/hexo Wiki</a><br><a href="http://wuchong.me/jacman/" target="_blank" rel="external">Jacman Theme</a><br><a href="http://hahack.tk/hexo-theme-freemind/" target="_blank" rel="external">Freemind</a><br><a href="http://hahack.tk/hexo-theme-freemind/2014/03/16/tag-plugins/" target="_blank" rel="external">Tag Bootstrap | Freemind</a><br><a href="https://github.com/zhanglun/hexo-theme/tree/master/Tinny" target="_blank" rel="external">hexo-theme/Tinny at master · zhanglun/hexo-theme</a></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
