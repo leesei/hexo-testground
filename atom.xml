@@ -4,7 +4,7 @@
   <subtitle><![CDATA[a blog built with Hexo]]></subtitle>
   <link href="/hexo-testground//atom.xml" rel="self"/>
   <link href="http://leesei.github.io/hexo-testground/"/>
-  <updated>2014-12-09T04:05:37.138Z</updated>
+  <updated>2014-12-09T08:12:01.391Z</updated>
   <id>http://leesei.github.io/hexo-testground/</id>
   
   <author>
@@ -19,12 +19,12 @@
     <link href="http://leesei.github.io/hexo-testground/2014/12/02/deploying-freemind/"/>
     <id>http://leesei.github.io/hexo-testground/2014/12/02/deploying-freemind/</id>
     <published>2014-12-02T04:20:27.000Z</published>
-    <updated>2014-12-04T10:22:11.000Z</updated>
+    <updated>2014-12-09T07:56:58.000Z</updated>
     <content type="html"><![CDATA[<p><a href="http://hahack.tk/hexo-theme-freemind/" target="_blank" rel="external">Freemind</a> by wzpan. Freemind’s <a href="https://github.com/wzpan/hexo-theme-freemind/tree/source" target="_blank" rel="external">source branch</a>.</p>
 <a id="more"></a>
 
 <h2 id="Install">Install</h2>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/wzpan/hexo-theme-freemind.git themes/freemind</div><div class="line">npm install hexo-tag-bootstrap --save</div><div class="line"></div><div class="line"><span class="comment"># or use submodule on your current repo</span></div><div class="line">git submodule add https://github.com/wzpan/hexo-theme-freemind.git themes/freemind</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/wzpan/hexo-theme-freemind.git themes/freemind</div><div class="line"><span class="comment"># or use submodule on your current repo</span></div><div class="line">git submodule add https://github.com/wzpan/hexo-theme-freemind.git themes/freemind</div><div class="line"></div><div class="line">npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure>
 
 <p>Change <code>theme</code> in <code>_config.yml</code> as <code>freemind</code>.</p>
 <h2 id="Modify_Freemind_config">Modify Freemind config</h2>
@@ -116,8 +116,8 @@
     <link href="http://leesei.github.io/hexo-testground/2014/12/01/tag-plugins/"/>
     <id>http://leesei.github.io/hexo-testground/2014/12/01/tag-plugins/</id>
     <published>2014-12-01T05:21:57.000Z</published>
-    <updated>2014-12-08T06:50:39.000Z</updated>
-    <content type="html"><![CDATA[<p>Taken from Hexo’s <a href="https://github.com/hexojs/site/blob/master/source/docs/tag-plugins.md" target="_blank" rel="external">doc page</a>. Also see <a href="http://hahack.tk/hexo-theme-freemind/2014/03/16/tag-plugins/" target="_blank" rel="external">tag-bootstrap</a></p>
+    <updated>2014-12-09T07:53:52.000Z</updated>
+    <content type="html"><![CDATA[<p>Taken from Hexo’s <a href="https://github.com/hexojs/site/blob/master/source/docs/tag-plugins.md" target="_blank" rel="external">doc page</a>. Also see <a href="http://hahack.tk/hexo-theme-freemind/2014/03/16/tag-plugins/" target="_blank" rel="external">tag-bootstrap</a>.</p>
 <p>Tag plugins are different from tags in posts. They’re ported from Octopress and can help you insert specific contents in posts quickly.</p>
 <a id="more"></a>
 
@@ -258,13 +258,141 @@
 
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Taken from Hexo’s <a href="https://github.com/hexojs/site/blob/master/source/docs/tag-plugins.md" target="_blank" rel="external">doc page</a>. Also see <a href="http://hahack.tk/hexo-theme-freemind/2014/03/16/tag-plugins/" target="_blank" rel="external">tag-bootstrap</a></p>
+    <![CDATA[<p>Taken from Hexo’s <a href="https://github.com/hexojs/site/blob/master/source/docs/tag-plugins.md" target="_blank" rel="external">doc page</a>. Also see <a href="http://hahack.tk/hexo-theme-freemind/2014/03/16/tag-plugins/" target="_blank" rel="external">tag-bootstrap</a>.</p>
 <p>Tag plugins are different from tags in posts. They’re ported from Octopress and can help you insert specific contents in posts quickly.</p>
 ]]>
     
     </summary>
     
       <category term="hexo" scheme="http://leesei.github.io/hexo-testground/tags/hexo/"/>
+    
+      <category term="tutorial" scheme="http://leesei.github.io/hexo-testground/tags/tutorial/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Tag Bootstrap]]></title>
+    <link href="http://leesei.github.io/hexo-testground/2014/12/01/tag-bootstrap/"/>
+    <id>http://leesei.github.io/hexo-testground/2014/12/01/tag-bootstrap/</id>
+    <published>2014-12-01T05:21:57.000Z</published>
+    <updated>2014-12-09T07:54:39.000Z</updated>
+    <content type="html"><![CDATA[<p>Taken from <a href="https://github.com/wzpan/hexo-theme-freemind/blob/source/_posts/tag-plugins.md" target="_blank" rel="external"><code>source</code></a> branch, <a href="http://hahack.tk/hexo-theme-freemind/2014/03/16/tag-plugins/" target="_blank" rel="external">website</a>.</p>
+<p>The freemind theme offers several new tag plugins, so as to fully take advantages of Bootstrap.</p>
+<a id="more"></a>
+
+<p>To use these tag plugins, you need to install <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> first. In your blog root folder, execute the following command:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm <span class="operator"><span class="keyword">install</span> hexo-tag-bootstrap <span class="comment">--save</span></span></div></pre></td></tr></table></figure>
+
+<p>Then you can use these tag plugins in your blog, as easily as you normally do using hexo tag plugins. </p>
+<a id="more"></a>
+
+<h2 id="Text_Color">Text Color</h2>
+<p>Convey meaning through color with a handful of emphasis utility classes. These may also be applied to links and will darken on hover just like our default link styles.</p>
+<h3 id="Syntax">Syntax</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">{% textcolor [style] <span class="variable">%}</span></div><div class="line">  <span class="keyword">text</span> <span class="keyword">string</span></div><div class="line">{% endtextcolor <span class="variable">%}</span></div></pre></td></tr></table></figure>
+
+<h3 id="Examples">Examples</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">{% textcolor muted <span class="variable">%}</span>Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.{% endtextcolor <span class="variable">%}</span></div><div class="line"></div><div class="line">{% textcolor primary <span class="variable">%}</span>Nullam id dolor id nibh ultricies vehicula ut id elit.{% endtextcolor <span class="variable">%}</span></div><div class="line"></div><div class="line">{% textcolor success <span class="variable">%}</span>Duis mollis, est non commodo luctus, nisi erat porttitor ligula.{% endtextcolor <span class="variable">%}</span></div><div class="line"></div><div class="line">{% textcolor info <span class="variable">%}</span>Maecenas sed diam eget risus varius blandit sit amet non magna.{% endtextcolor <span class="variable">%}</span></div><div class="line"></div><div class="line">{% textcolor <span class="keyword">warning</span> <span class="variable">%}</span>Etiam porta sem malesuada magna mollis euismod.{% endtextcolor <span class="variable">%}</span></div><div class="line"></div><div class="line">{% textcolor danger <span class="variable">%}</span>Donec ullamcorper nulla non metus auctor fringilla.{% endtextcolor <span class="variable">%}</span></div></pre></td></tr></table></figure>
+
+<h3 id="Results">Results</h3>
+<p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+
+<p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+<p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+
+<p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+
+<p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+
+<p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+<h2 id="Buttons">Buttons</h2>
+<p>Inserts a button with target links, text and specified color.</p>
+<h3 id="Syntax-1">Syntax</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="xml"></span><span class="template_tag">{% btn <span class="keyword">url</span> text [style] %}</span><span class="xml"></span></div></pre></td></tr></table></figure>
+
+<h3 id="Examples-1">Examples</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">{% btn http:<span class="comment">//hahack.com hahack %}</span></div><div class="line"></div><div class="line">{% btn http:<span class="comment">//hahack.com hahack primary %}</span></div><div class="line"></div><div class="line">{% btn http:<span class="comment">//hahack.com hahack success %}</span></div><div class="line"></div><div class="line">{% btn http:<span class="comment">//hahack.com hahack warning %}</span></div><div class="line"></div><div class="line">{% btn http:<span class="comment">//hahack.com hahack danger %}</span></div><div class="line"></div><div class="line">{% btn http:<span class="comment">//hahack.com hahack info %}</span></div></pre></td></tr></table></figure>
+
+<h3 id="Results-1">Results</h3>
+<a class="btn btn-default" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+
+<a class="btn btn-primary" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+
+<a class="btn btn-success" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+
+<a class="btn btn-warning" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+
+<a class="btn btn-danger" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+
+<a class="btn btn-info" href="http://hahack.com" target="_blank" rel="external">hahack</a>
+
+<h2 id="Labels">Labels</h2>
+<p>Inserts a label with text and specified color.</p>
+<h3 id="Syntax-2">Syntax</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">{% label <span class="keyword">text</span> [style] <span class="variable">%}</span></div></pre></td></tr></table></figure>
+
+<h3 id="Examples-2">Examples</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">{% label <span class="keyword">default</span> <span class="variable">%}</span></div><div class="line"></div><div class="line">{% label <span class="keyword">warning</span> <span class="keyword">warning</span> <span class="variable">%}</span></div><div class="line"></div><div class="line">{% label success success <span class="variable">%}</span></div><div class="line"></div><div class="line">{% label danger danger <span class="variable">%}</span></div><div class="line"></div><div class="line">{% label primary primary <span class="variable">%}</span></div><div class="line"></div><div class="line">{% label info info <span class="variable">%}</span></div></pre></td></tr></table></figure>
+
+<h3 id="Results-2">Results</h3>
+<span class="label label-default">default</span>
+
+<span class="label label-warning">warning</span>
+
+<span class="label label-success">success</span>
+
+<span class="label label-danger">danger</span>
+
+<span class="label label-primary">primary</span>
+
+<span class="label label-info">info</span>
+
+<h2 id="Badges">Badges</h2>
+<p>Inserts a badge with text.</p>
+<div class="alert alert-danger"><i class="fa fa-bug"></i>  <p>Badges won’t self collapse in Internet Explorer 8 because it lacks support for the <code>:empty</code> selector.</p>
+</div>
+
+<h3 id="Syntax-3">Syntax</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">{% badge <span class="keyword">text</span> <span class="variable">%}</span></div></pre></td></tr></table></figure>
+
+<h3 id="Examples-3">Examples</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tuple">{<span class="comment">% badge 42 %}</span></span></div></pre></td></tr></table></figure>
+
+<h3 id="Results-3">Results</h3>
+<span class="badge">42</span>
+
+<h2 id="Alerts">Alerts</h2>
+<p>Inserts alert messages with text and specified color.</p>
+<h3 id="Syntax-4">Syntax</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">{% alert [style] <span class="variable">%}</span></div><div class="line">   Alert <span class="keyword">string</span></div><div class="line">{% endalert <span class="variable">%}</span></div></pre></td></tr></table></figure>
+
+<h3 id="Examples-4">Examples</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">{<span class="var_expand">% alert warning %</span>}Best check yo self, you're <span class="literal">not</span> looking too good.{<span class="var_expand">% endalert %</span>}</div><div class="line"></div><div class="line">{<span class="var_expand">% alert danger %</span>}Change <span class="literal">a</span> few things up <span class="literal">and</span> try submitting again.{<span class="var_expand">% endalert %</span>}</div><div class="line"></div><div class="line">{<span class="var_expand">% alert success %</span>}You successfully read this important alert message.{<span class="var_expand">% endalert %</span>}</div><div class="line"></div><div class="line">{<span class="var_expand">% alert info %</span>}This alert needs your attention, but it's <span class="literal">not</span> super important.{<span class="var_expand">% endalert %</span>}</div></pre></td></tr></table></figure>
+
+<h3 id="Results-4">Results</h3>
+<div class="alert alert-warning"><i class="fa fa-bell"></i>  <p>Best check yo self, you’re not looking too good.</p>
+</div>
+
+<div class="alert alert-danger"><i class="fa fa-bug"></i>  <p>Change a few things up and try submitting again.</p>
+</div>
+
+<div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  <p>You successfully read this important alert message.</p>
+</div>
+
+<div class="alert alert-info"><i class="fa fa-info"></i>  <p>This alert needs your attention, but it’s not super important.</p>
+</div>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[Introduce tag plugins in Freemind.]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://leesei.github.io/hexo-testground/tags/hexo/"/>
+    
+      <category term="freemind" scheme="http://leesei.github.io/hexo-testground/tags/freemind/"/>
     
       <category term="tutorial" scheme="http://leesei.github.io/hexo-testground/tags/tutorial/"/>
     
